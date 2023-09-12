@@ -30,17 +30,27 @@ export class NewPageComponent {
   constructor(private heroesService: HeroesService) {}
 
   get currentHero(): Hero {
-
     const hero = this.heroForm.value as Hero;
     return hero;
-
   }
 
   onSubmit(): void {
 
     if(this.heroForm.invalid) return;
 
-    // this.heroesService.updateHero();
+    if (this.currentHero.id){
+      this.heroesService.updateHero(this.currentHero)
+      .subscribe(hero => {
+        //TODO: mostrar snackbar
+      });
+
+      return;
+    }
+
+    this.heroesService.addHero(this.currentHero)
+      .subscribe(hero => {
+        //TODO: mostrar snackbar, y navegar a /heroes/edit/hero.id
+      });
 
   }
 

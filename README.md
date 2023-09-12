@@ -18,7 +18,7 @@ Curso basado en Angular desde cero. Hace un recorrido por extenso para poder ini
 
 06B: El objetivo principal es aprender a utilizar Angular Material. Se trabajará con muchos componentes de Angular material que ayudarán a ver cualquier otro tipo de paquete modularizado de la misma manera y a saber aplicarlo.
 
-  Angular Material
+  - Angular Material
 
   - Interfaces y tipado
   
@@ -33,3 +33,23 @@ Curso basado en Angular desde cero. Hace un recorrido por extenso para poder ini
   - JSON-Server
   
   - Prime Flex
+
+06C: Bases para poder realizar CRUD completo con cualquier backend basado en servicios web, mediante comunicación JSON.
+  
+  - CRUD
+  
+    a) Create
+    
+    b) Read
+    
+    c) Update
+    
+    d) Delete
+  
+  - Pipes puros e impuros
+  
+  - Snacks
+  
+  - Dialogs
+  
+  - Inyección de servicios manualmente

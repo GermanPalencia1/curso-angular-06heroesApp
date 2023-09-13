@@ -53,3 +53,21 @@ Curso basado en Angular desde cero. Hace un recorrido por extenso para poder ini
   - Dialogs
   
   - Inyección de servicios manualmente
+
+06D: Controlar de forma básica una autenticación y Angular como método de protección para las rutas del proyecto.
+
+  - Protección de rutas
+
+  - Rutas privadas
+  
+  - Rutas públicas
+  
+  - Servicio de autenticación
+  
+  - Guards
+  
+  - Can Activate
+  
+  - Can Match
+  
+  - Mantener la sesión del usuario
